@@ -58,6 +58,20 @@ a:hover {
 
         </center>
         
+
+  <script>
+    const audio = new Audio('piano songs.mp3');
+    audio.loop = true;
+    audio.preload = 'auto';
+
+
+    window.addEventListener('load', () => {
+      audio.play().catch(err => {
+        console.warn("gvgh,vg,vg,vn,vn,,n");
+        console.warn(err);
+      });
+    });
+  </script>
         </body>
 
 </html>
